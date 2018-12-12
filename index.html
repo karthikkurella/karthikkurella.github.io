@@ -1,25 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    
-    <title>Demo</title>
-    <link rel="stylesheet" type="text/css" href="one.css">
-    <script src="index.js" ></script>
-    
-</head>
+<title>Login Form Design</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 <body>
-    <p>Hello Github</p>
-    <h1>Login Form</h1>
-<form method="POST" id="loginform">
-    <label>Username</label>
-    <input type="text" id="username"/><br><br>
-    
-    <label>Password</label>
+    <div class="loginbox">
+    <img src="avatar.png" class="avatar">
+        <h1>Login Here</h1>
+        <form>
+            <p>Username</p>
+            <input type="text" name="" placeholder="Enter Username">
+            <p>Password</p>
+            <input type="password" name="" placeholder="Enter Password">
+            <input type="submit" name="" value="Login">
+            <a href="#">Lost your password?</a><br>
+            <a href="#">Don't have an account?</a>
+        </form>
+        
+    </div>
 
-    <input id="password" type="password"/> <br><br>
-    
-    
-    <input type="button" value="login" onclick="validate()" onclick="validate()"/>
-</form>
 </body>
+</head>
 </html>
